@@ -1,0 +1,20 @@
+{
+  "name": "cursojstypescript",
+  "version": "1.0.0",
+  "description": "\"# CursoJSTypescript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndressaAndrad/CursoJSTypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndressaAndrad/CursoJSTypescript/issues"
+  },
+  "homepage": "https://github.com/AndressaAndrad/CursoJSTypescript#readme"
+}
