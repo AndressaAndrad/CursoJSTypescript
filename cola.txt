@@ -1,0 +1,76 @@
+Passo a passo par baixar o Typescript
+--npm init -y
+
+Instalar o typescript
+--npm i typescript -D
+
+Instalar ts-node
+--npm i ts-node -D
+
+Fazr uma pasta .vcsode
+e escrever "code-runner.executorMap"
+"typescript": "npx ts-node --files  --transpile-only
+
+Instalar o eslint
+--npm i eslint -D
+
+Configurando .eslintrc.js
+module.exports = {
+    env: {
+      browser: true,
+      es6: true,
+      node: true,
+    },
+    extends: [
+      'eslint:recommended',
+      'plugin:@typescript-eslint/eslint-recommended',
+      'plugin:@typescript-eslint/recommended',
+    ],
+    globals: {
+      Atomics: 'readonly',
+      SharedArrayBuffer: 'readonly',
+    },
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      ecmaVersion: 11,
+      sourceType: 'module',
+    },
+    plugins: ['@typescript-eslint'],
+    rules: {},
+  };
+
+Instalar o prettier
+-- npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+
+Configurando .prettierrc.js
+
+module.exports = {
+    semi: true,
+    trailingComma: 'all',
+    singleQuote: true,
+    printWidth: 80,
+    tabWidth: 2,
+     endOfLine: 'auto',
+  }
+
+tsconfig
+-- npx tsc --init
+
+colocar no  "compilerOptions"
+ {
+  "target": "es2016",
+  "lib": ["ESNext","DOM"],
+  "outDir": "./dist",
+no  "include": [
+  "./src"
+]
+}
+
+fazer uma pasta src
+
+criando uma pasta dist com o comando
+--npx tsc
+
+editorconfig
+
+
