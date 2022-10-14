@@ -74,3 +74,21 @@ criando uma pasta dist com o comando
 editorconfig
 
 
+-------------- Configurar Webpack para trabalhar com o front end --------------------------------------
+---npx tsc
+apagar a pasta dist
+fazer um arquivo Webpack
+pasta index.ts
+
+--- npm i ts-loader webpack webpack-cli --save-dev
+
+ir na pagina webpack typescript e copia webpack.config
+
+olha a pasta e copia as modificações
+
+--- npx webpack -w (atualiza as mudanças)
+
+
+
+
+
