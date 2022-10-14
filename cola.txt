@@ -86,8 +86,15 @@ ir na pagina webpack typescript e copia webpack.config
 
 olha a pasta e copia as modificações
 
---- npx webpack -w (atualiza as mudanças)
+--- npx webpack -w (atualiza as mudança)
 
+++++++++++++++ mudando pasta com node frontend
+
+criando um tsconfig.frontend.json
+
+colocar "outDir": "./frontend/assets/js",
+
+--- na webpack.config tem outra alteração
 
 
 
